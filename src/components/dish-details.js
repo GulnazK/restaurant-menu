@@ -17,7 +17,8 @@ const DishDetails = () => {
                 <div className="col-md-7 mt-5">
                     <h2>{meal.title}</h2>
                     <p className="">Description:{meal.description}</p>
-                    <div>Price:{meal.price}</div>
+                    <div>Price:{meal.price}$</div>
+                    <button className="dish-btn">ДОБАВИТЬ В ЗАКАЗ</button>
                 </div>
             </div>
         </div>

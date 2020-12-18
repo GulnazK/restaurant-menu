@@ -79,6 +79,17 @@ header {
     position: absolute;
     margin-top: 100px;
 }
+.dish-btn{
+    padding: 5px 20px;
+    background-color: #ec4a09;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.dish-btn:hover{
+    background-color: #f16b36;
+}
 
 
 
