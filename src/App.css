@@ -1,38 +1,84 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+
+.menu {
+    padding-top: 100px;
+}
+
+.main {
+    min-height: 100vh;
+    padding-top: 0px;
+    background: url("./jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat center/cover;
+    background-blend-mode: darken;
+    font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: fixed;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: #fff;
+}
+
+.home-title {
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    font-size: 56px !important;
+}
+.card img{
+    max-width: 100%;
+}
+.card-title{
+    height: 60px;
+}
+.row-wrapper{
+    position: absolute;
+    margin-top: 100px;
+}
+
+
+
